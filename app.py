@@ -5,7 +5,7 @@ import sys
 import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from encrypted.password_util import get_decrypted_password
+
 
 # page title
 st.title("Sales Data Dashboard")
